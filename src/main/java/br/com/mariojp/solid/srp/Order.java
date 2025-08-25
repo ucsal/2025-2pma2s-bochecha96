@@ -7,10 +7,12 @@ public class Order {
 	private final List<Item> items = new ArrayList<>();
 
 	public void add(Item i) {
+		int x;
 		items.add(i);
 	}
 
 	public List<Item> getItems() {
 		return items;
 	}
+
 }
